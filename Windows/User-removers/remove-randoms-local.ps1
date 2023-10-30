@@ -1,5 +1,5 @@
 #create a localbackup admin
-$PASSWORD= ConvertTo-SecureString -AsPlainText -Force -String Evilcorpfirstpass1234
+$PASSWORD= ConvertTo-SecureString -AsPlainText -Force -String fnafatfreddies!
 
 New-LocalUser -Name "Bongus" -Password $PASSWORD
 Add-LocalGroupMember -Group "Administrators" -Member "Bongus"
