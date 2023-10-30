@@ -5,7 +5,7 @@ New-AdUser -Name "Bongus" -Accountpassword $PASSWORD -Enabled $true
 
 #Remove all unknown users
 $users = Get-ADUser -Filter '*' | Select -Exp Name
-$userstocheck = @('Scorebot', 'whiteteam', 'Administrator', 'TeresaWright', 'OrsonWelles', 'JosephCotton', 'HumphreyBogart', 'EdwardRobinson', 'BurtLancaster', 'IngridBerman', 'KatharineHepburn', 'KatharineHepburn', 'BingCrosby', 'MyrnaLoy', 'GaryCooper', 'JudyGarland', 'JudyGarland', 'VanJohnson', 'WilliamBendix')
+$userstocheck = @('cia', 'fbi', 'nsa', 'secretservice', 'irs', 'airforce', 'military', 'hacksawridge', 'forestgump', 'navy', 'marines', 'spaceforce')
 
 
 #Change password of users we are keeping

@@ -6,7 +6,7 @@ Add-LocalGroupMember -Group "Administrators" -Member "Bongus"
 
 #Remove all unknown users
 $users = Get-LocalUser
-$userstocheck = @('Scorebot', 'whiteteam', 'Administrator', 'sylvia', 'bennyg', 'eleanor', 'roger', 'karen', 'joyce', 'raymond', 'howard', 'suzanne', 'louise', 'glenn', 'christopher', 'lynn', 'enzo', 'peggy', 'margaret', 'melvin', 'wendell')
+$userstocheck = @('cia', 'fbi', 'Administrator', 'nsa', 'secretservice', 'irs', 'airforce', 'military', 'hacksawridge', 'ForestGump', 'navy', 'marines', 'spaceforce')
 
 
 #Change password of users we are keeping
